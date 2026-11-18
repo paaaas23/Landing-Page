@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyYard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E88E5"/>
+      <stop offset="50%" stop-color="#64B5F6"/>
+      <stop offset="100%" stop-color="#E3F2FD"/>
+    </linearGradient>
+    <linearGradient id="yardFloor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#78909C"/>
+      <stop offset="100%" stop-color="#455A64"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="380" fill="url(#skyYard)"/>
+  <!-- Farm workshop / shed in background -->
+  <polygon points="50,220 250,150 450,220 450,380 50,380" fill="#CFD8DC" stroke="#90A4AE" stroke-width="2"/>
+  <rect x="180" y="240" width="140" height="140" fill="#37474F"/>
+  <circle cx="250" cy="180" r="16" fill="#FBC02D"/>
+
+  <!-- Yard concrete / gravel floor -->
+  <rect y="380" width="800" height="220" fill="url(#yardFloor)"/>
+
+  <!-- 50 HP High Power Tractor Hero Close-Up -->
+  <g transform="translate(240, 160) scale(1.4)">
+    <!-- Cabin Structure & Glass -->
+    <polygon points="65,30 135,30 160,80 65,80" fill="#212121"/>
+    <polygon points="73,36 128,36 150,75 73,75" fill="#81D4FA" opacity="0.85"/>
+    <rect x="60" y="22" width="80" height="10" rx="3" fill="#FBC02D"/>
+    <!-- Chrome mirrors -->
+    <circle cx="160" cy="55" r="4" fill="#E0E0E0"/>
+    <circle cx="65" cy="55" r="4" fill="#E0E0E0"/>
+    <!-- Shiny Red Bonnet / Hood -->
+    <path d="M135 80 L235 80 Q 255 80, 255 102 L255 130 L135 130 Z" fill="#D32F2F"/>
+    <rect x="145" y="90" width="70" height="8" rx="2" fill="#B71C1C"/>
+    <!-- 50HP Badge -->
+    <rect x="195" y="103" width="35" height="12" rx="3" fill="#FBC02D"/>
+    <text x="199" y="112" font-family="sans-serif" font-size="8" font-weight="bold" fill="#212121">50 HP</text>
+    <!-- Exhaust silencer -->
+    <rect x="200" y="25" width="7" height="55" rx="2" fill="#37474F"/>
+    <!-- Headlamps -->
+    <circle cx="250" cy="100" r="7" fill="#FFF9C4" stroke="#FFA000" stroke-width="2"/>
+    <!-- Big Rear Wheels -->
+    <circle cx="75" cy="130" r="50" fill="#212121"/>
+    <circle cx="75" cy="130" r="30" fill="#FBC02D" stroke="#E65100" stroke-width="3"/>
+    <circle cx="75" cy="130" r="12" fill="#424242"/>
+    <!-- Wheel Treads -->
+    <path d="M75 80 v10 M75 170 v10 M25 130 h10 M115 130 h10 M40 95 l8 8 M102 157 l8 8 M40 165 l8-8 M102 103 l8-8" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
+    <!-- Front Wheel -->
+    <circle cx="225" cy="140" r="28" fill="#212121"/>
+    <circle cx="225" cy="140" r="16" fill="#FBC02D" stroke="#E65100" stroke-width="2"/>
+    <circle cx="225" cy="140" r="6" fill="#424242"/>
+  </g>
+
+  <!-- Tag badge -->
+  <rect x="24" y="24" width="280" height="44" rx="22" fill="rgba(0,0,0,0.65)"/>
+  <circle cx="46" cy="46" r="12" fill="#2E7D32"/>
+  <text x="70" y="52" fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold">Well-Maintained 50 HP Machine</text>
+</svg>
+

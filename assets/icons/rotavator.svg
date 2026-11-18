@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Rotavator Shield Hood -->
+  <path d="M10 24c6-8 38-8 44 0v16H10V24z" fill="rgba(46,125,50,0.18)" stroke="#2E7D32" stroke-width="3"/>
+  <path d="M8 40h48" stroke="#2E7D32" stroke-width="3"/>
+  <!-- Central Rotor Shaft -->
+  <line x1="16" y1="36" x2="48" y2="36" stroke="#5D4037" stroke-width="3"/>
+  <circle cx="32" cy="36" r="6" stroke="#FFA000" stroke-width="2.5" fill="#FFE082"/>
+  <!-- Rotating L-blades / Tines churning soil -->
+  <path d="M22 36l-4 12h-4" stroke="#1B5E20" stroke-width="3"/>
+  <path d="M32 36l4 14h6" stroke="#1B5E20" stroke-width="3"/>
+  <path d="M42 36l-4 12h-4" stroke="#1B5E20" stroke-width="3"/>
+  <!-- Churned Soil Particles -->
+  <circle cx="12" cy="54" r="2" fill="#795548"/>
+  <circle cx="26" cy="56" r="2.5" fill="#795548"/>
+  <circle cx="38" cy="53" r="2" fill="#795548"/>
+  <circle cx="50" cy="55" r="2.5" fill="#795548"/>
+  <!-- Trailing Flap Chain / Link -->
+  <line x1="50" y1="40" x2="56" y2="48" stroke="#795548" stroke-dasharray="2 2"/>
+</svg>
+

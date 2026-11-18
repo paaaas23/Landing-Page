@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- Sky Gradient -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1B5E20" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#2E7D32" stop-opacity="0.85"/>
+      <stop offset="70%" stop-color="#388E3C" stop-opacity="0.80"/>
+      <stop offset="100%" stop-color="#4CAF50" stop-opacity="0.90"/>
+    </linearGradient>
+
+    <!-- Warm Golden Sunlight Gradient -->
+    <radialGradient id="sunGlow" cx="80%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#FFF9C4" stop-opacity="0.6"/>
+      <stop offset="30%" stop-color="#FBC02D" stop-opacity="0.35"/>
+      <stop offset="70%" stop-color="#FFA000" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#2E7D32" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Lush Field Rolling Hills -->
+    <linearGradient id="fieldGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2E7D32"/>
+      <stop offset="100%" stop-color="#1B5E20"/>
+    </linearGradient>
+    <linearGradient id="fieldGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#388E3C"/>
+      <stop offset="100%" stop-color="#255D28"/>
+    </linearGradient>
+    <linearGradient id="furrowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5D4037"/>
+      <stop offset="100%" stop-color="#3E2723"/>
+    </linearGradient>
+
+    <!-- Tractor Red/Green Accent -->
+    <linearGradient id="tractorRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D32F2F"/>
+      <stop offset="100%" stop-color="#B71C1C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky Base -->
+  <rect width="1920" height="1080" fill="url(#skyGrad)"/>
+  <rect width="1920" height="1080" fill="url(#sunGlow)"/>
+
+  <!-- Distant Blue-Green Mountains -->
+  <path d="M0 580 Q 280 430, 620 520 T 1320 480 T 1920 540 L 1920 1080 L 0 1080 Z" fill="#1B4D20" opacity="0.45"/>
+  <path d="M0 640 Q 380 520, 840 600 T 1600 560 T 1920 620 L 1920 1080 L 0 1080 Z" fill="#205B26" opacity="0.6"/>
+
+  <!-- Rolling Terraced Green Fields -->
+  <path d="M0 720 Q 450 630, 980 710 T 1920 680 L 1920 1080 L 0 1080 Z" fill="url(#fieldGrad2)"/>
+  <path d="M0 800 Q 520 720, 1100 810 T 1920 760 L 1920 1080 L 0 1080 Z" fill="url(#fieldGrad1)"/>
+
+  <!-- Fertile Cultivated Soil Foreground / Furrows -->
+  <path d="M0 880 Q 640 820, 1280 890 T 1920 860 L 1920 1080 L 0 1080 Z" fill="url(#furrowGrad)"/>
+
+  <!-- Perspective Furrow Lines in Soil -->
+  <path d="M0 920 Q 700 880, 1920 900" stroke="#795548" stroke-width="6" fill="none" opacity="0.6"/>
+  <path d="M0 970 Q 720 930, 1920 960" stroke="#4E342E" stroke-width="8" fill="none" opacity="0.7"/>
+  <path d="M0 1020 Q 740 980, 1920 1010" stroke="#3E2723" stroke-width="10" fill="none" opacity="0.8"/>
+  <path d="M0 1060 Q 760 1020, 1920 1050" stroke="#271612" stroke-width="12" fill="none" opacity="0.9"/>
+
+  <!-- Golden Wheat / Paddy Stalks along edge -->
+  <g stroke="#FBC02D" stroke-width="3" opacity="0.75" stroke-linecap="round">
+    <path d="M60 880 L65 820 M65 820 L58 800 M65 820 L72 805"/>
+    <path d="M90 890 L98 815 M98 815 L90 795 M98 815 L106 800"/>
+    <path d="M120 895 L125 830 M125 830 L118 810 M125 830 L132 815"/>
+    <path d="M1820 860 L1815 790 M1815 790 L1808 770 M1815 790 L1824 775"/>
+    <path d="M1860 870 L1855 805 M1855 805 L1848 785 M1855 805 L1864 790"/>
+  </g>
+
+  <!-- Big Hero Modern Tractor Silhouette / Artwork on Right Side -->
+  <g transform="translate(1120, 540) scale(1.6)" filter="drop-shadow(0 20px 25px rgba(0,0,0,0.4))">
+    <!-- Cabin Structure -->
+    <path d="M90 60 L150 60 L180 110 L90 110 Z" fill="#212121" opacity="0.9"/>
+    <!-- Glass with golden reflection -->
+    <path d="M98 68 L144 68 L168 106 L98 106 Z" fill="#81D4FA" opacity="0.6"/>
+    <!-- Safety ROPS / Roof in Agri Yellow/Green -->
+    <rect x="85" y="52" width="75" height="10" rx="3" fill="#FBC02D"/>
+    <!-- Tractor Hood / Bonnet in Rich Agrigreen or Red -->
+    <path d="M150 110 L250 110 Q 280 110 280 135 L280 165 L150 165 Z" fill="#C62828"/>
+    <!-- Grille & Headlight -->
+    <rect x="272" y="125" width="8" height="32" rx="2" fill="#212121"/>
+    <ellipse cx="274" cy="132" rx="4" ry="5" fill="#FFF59D"/>
+    <!-- Light Beam shining forward -->
+    <polygon points="278,132 460,110 460,220 278,150" fill="url(#sunGlow)" opacity="0.35"/>
+    <!-- Exhaust Stack / Silencer -->
+    <rect x="220" y="50" width="8" height="60" rx="2" fill="#37474F"/>
+    <path d="M228 50 Q 236 45 240 50" stroke="#37474F" stroke-width="3" fill="none"/>
+    <!-- Driver Seat & Operator Silhouette -->
+    <circle cx="120" cy="82" r="10" fill="#263238"/>
+    <path d="M110 94 Q 122 92 134 108 L106 108 Z" fill="#37474F"/>
+    <circle cx="145" cy="94" r="5" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+    <!-- Rear Fender in Matching Red -->
+    <path d="M60 120 Q 95 90 130 120 L130 150 L60 150 Z" fill="#B71C1C"/>
+    <!-- Disc Cultivator Attachment Connected to Rear -->
+    <line x1="60" y1="160" x2="0" y2="185" stroke="#424242" stroke-width="7"/>
+    <circle cx="5" cy="188" r="14" fill="#616161" stroke="#212121" stroke-width="4"/>
+    <circle cx="28" cy="185" r="14" fill="#757575" stroke="#212121" stroke-width="4"/>
+    <!-- Massive Deep Tread Rear Tire -->
+    <circle cx="95" cy="165" r="54" fill="#212121"/>
+    <circle cx="95" cy="165" r="32" fill="#FBC02D" stroke="#E65100" stroke-width="3"/>
+    <circle cx="95" cy="165" r="14" fill="#424242"/>
+    <circle cx="95" cy="165" r="6" fill="#212121"/>
+    <!-- Rear Tire Deep Grippy Treads -->
+    <path d="M95 111 L95 125 M95 205 L95 219 M41 165 L55 165 M135 165 L149 165 M57 127 L67 137 M123 193 L133 203 M57 203 L67 193 M123 137 L133 127" stroke="#111111" stroke-width="6" stroke-linecap="round"/>
+    <!-- Front Wheel -->
+    <circle cx="240" cy="175" r="32" fill="#212121"/>
+    <circle cx="240" cy="175" r="18" fill="#FBC02D" stroke="#E65100" stroke-width="2"/>
+    <circle cx="240" cy="175" r="7" fill="#424242"/>
+  </g>
+
+  <!-- Dark Rich Contrast Overlay for Text Readability -->
+  <linearGradient id="heroTextProtection" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#0E230E" stop-opacity="0.88"/>
+    <stop offset="45%" stop-color="#143414" stop-opacity="0.75"/>
+    <stop offset="75%" stop-color="#143414" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#0E230E" stop-opacity="0.1"/>
+  </linearGradient>
+  <rect width="1920" height="1080" fill="url(#heroTextProtection)"/>
+</svg>
+

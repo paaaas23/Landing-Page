@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGolden" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFB74D"/>
+      <stop offset="50%" stop-color="#FFE082"/>
+      <stop offset="100%" stop-color="#FFF8E1"/>
+    </linearGradient>
+    <linearGradient id="cropPaddy" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FDD835"/>
+      <stop offset="100%" stop-color="#C0CA33"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="300" fill="url(#skyGolden)"/>
+  <!-- Bright Morning Sun -->
+  <circle cx="160" cy="90" r="45" fill="#FFF59D"/>
+
+  <!-- Field of Golden Paddy/Wheat -->
+  <rect y="300" width="800" height="300" fill="url(#cropPaddy)"/>
+
+  <!-- Dense Golden Stalks Pattern -->
+  <g stroke="#F57F17" stroke-width="2">
+    <path d="M20 380 L25 310 M30 385 L35 305 M40 375 L45 315 M60 380 L65 310 M80 385 L85 305"/>
+    <path d="M120 450 L125 350 M140 455 L145 345 M160 445 L165 355 M180 450 L185 350"/>
+    <path d="M620 480 L625 370 M640 485 L645 365 M660 475 L665 375 M680 480 L685 370"/>
+    <path d="M720 540 L725 410 M740 545 L745 405 M760 535 L765 415 M780 540 L785 410"/>
+  </g>
+
+  <!-- Combine Harvester Attachment in action -->
+  <g transform="translate(300, 230) scale(0.95)">
+    <!-- Cabin -->
+    <polygon points="70,20 130,20 160,65 70,65" fill="#212121"/>
+    <polygon points="78,26 124,26 150,60 78,60" fill="#E1F5FE" opacity="0.8"/>
+    <rect x="65" y="14" width="70" height="8" rx="2" fill="#FBC02D"/>
+    <!-- Body -->
+    <rect x="70" y="65" width="160" height="50" rx="4" fill="#2E7D32"/>
+    <!-- Large Front Wheels -->
+    <circle cx="185" cy="115" r="40" fill="#212121"/>
+    <circle cx="185" cy="115" r="22" fill="#FBC02D" stroke="#5D4037" stroke-width="2"/>
+    <circle cx="75" cy="120" r="26" fill="#212121"/>
+    <!-- Harvester Rotating Cutter Reel -->
+    <circle cx="260" cy="100" r="32" stroke="#FFA000" stroke-width="4" fill="rgba(255,160,0,0.15)"/>
+    <line x1="260" y1="68" x2="260" y2="132" stroke="#FFA000" stroke-width="3"/>
+    <line x1="228" y1="100" x2="292" y2="100" stroke="#FFA000" stroke-width="3"/>
+    <!-- Unloading Pipe Auger -->
+    <path d="M90 55 L20 30 L0 35" stroke="#FFA000" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="0" cy="45" r="3" fill="#FBC02D"/>
+    <circle cx="-5" cy="52" r="3" fill="#FBC02D"/>
+  </g>
+
+  <!-- Tag badge -->
+  <rect x="24" y="24" width="230" height="44" rx="22" fill="rgba(0,0,0,0.65)"/>
+  <circle cx="46" cy="46" r="12" fill="#2E7D32"/>
+  <text x="70" y="52" fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold">Harvesting (அறுவடை)</text>
+</svg>
+
